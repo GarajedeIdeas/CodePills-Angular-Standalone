@@ -1,0 +1,38 @@
+<div class="container">
+    <mat-accordion>
+        <mat-expansion-panel>
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    ¿En qué consisten los componentes StandAlone?
+                </mat-panel-title>
+                <mat-panel-description>
+                    Descubre la nueva forma de crear componentes en Angular
+                </mat-panel-description>
+            </mat-expansion-panel-header>
+            <p>Agregando la propiedad <strong>standalone</strong> en la creación de nuestros componentes Angular podemos hacerlos independientes de un módulo de jerarquía superior.</p>
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    ¿Los StandAlone Componentes pueden usar librerías externas?
+                </mat-panel-title>
+                <mat-panel-description>
+                    ¿Qué limitaciones tienen este tipo de componentes?
+                </mat-panel-description>
+            </mat-expansion-panel-header>
+            <p>Mediante el uso de "un módulo virtual" dentro del propio componente conseguimos recoger todas las características que nos ofrece el uso de módulos en Angular pero dentro de dicho componente.</p>
+            <p>Una de estas sería el uso de librerías externas dentro del propio componente</p>
+        </mat-expansion-panel>
+        <mat-expansion-panel>
+            <mat-expansion-panel-header>
+                <mat-panel-title>
+                    ¿Cómo incluimos estos componentes en nuestras rutas?
+                </mat-panel-title>
+                <mat-panel-description>
+                    ¿Podemos cargar estos componentes con Lazy Loading?
+                </mat-panel-description>
+            </mat-expansion-panel-header>
+            <p>Como si de un módulo se tratase, este nuevo tipo de componentes puedes cargarse de manera "lazy" mediante el acceso a una ruta dentro de nuestra aplicación.</p>
+        </mat-expansion-panel>
+    </mat-accordion>
+</div>
